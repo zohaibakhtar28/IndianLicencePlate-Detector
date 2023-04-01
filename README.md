@@ -2,6 +2,9 @@
 
 This project aims to detect and extract Indian license plates from images using the Haar Cascade method in OpenCV and C++. The Haar Cascade method is a popular object detection technique that uses machine learning algorithms to detect objects in images or videos.
 
+# Demo
+
+
 # Requirements
 
 1.) OpenCV
@@ -23,21 +26,19 @@ This project aims to detect and extract Indian license plates from images using 
 # How it Works
 The license plate detector using Haar Cascade method uses the following steps to detect and extract license plates:
 
-1.) Load the input image.
+1.) Load the input image in realtime via webcam.
 
-2.) Convert the image to grayscale.
+2.) Load the Haar Cascade classifier for license plate detection.
 
-3.) Load the Haar Cascade classifier for license plate detection.
+3.) Detect license plate regions in the image using the classifier.
 
-4.) Detect license plate regions in the image using the classifier.
+4.) Filter out the regions based on their size and aspect ratio and create a contour around the region.
 
-5.) Filter out the regions based on their size and aspect ratio.
+5.) Extract the license plate region from the image and saves it in the folder.
 
-6.) Extract the license plate region from the image and saves it in the folder.
-
-Apply OCR (Optical Character Recognition) to the extracted license plate to read the characters.
 
 # Limitations
+
 The license plate detector using Haar Cascade method may not work well in the following scenarios:
 
 1.) Low-quality images with poor lighting or blurriness.
