@@ -4,10 +4,24 @@ This project aims to detect and extract Indian license plates from images using 
 
 # Demo
 
+1.) Test Image: -
+
+![4](https://user-images.githubusercontent.com/98112123/229573315-91d241a3-83e2-4ee7-9d19-f90f24adc494.png)
+
+2.) Extracted Number Plate :-
+            
+![4](https://user-images.githubusercontent.com/98112123/229573346-2936f5a1-d327-49a1-a06d-17f903243400.png)
+
+3.) Live Working :-
+
+
+https://user-images.githubusercontent.com/98112123/229589496-4574f375-a106-4409-accd-d0d6b21b381c.mp4
+
+
 
 # Requirements
 
-1.) OpenCV
+1.) OpenCV (https://github.com/opencv)
 
 2.) C++ Compiler
 
